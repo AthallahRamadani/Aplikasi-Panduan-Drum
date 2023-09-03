@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Aplikasi Drum</string>
+    <string name="background">Background</string>
+    <string name="bagian_empat">Bagian Empat</string>
+    <string name="bagian_satu">Bagian Satu</string>
+    <string name="bagian_dua">Bagian dua</string>
+    <string name="bagian_tiga">Bagian Tiga</string>
+    <string name="bagian_enam">Bagian Enam</string>
+    <string name="angkasatu">angkaSatu</string>
+    <string name="bagian_lima">Bagian Lima</string>
+    <string name="angkaempat">angkaEmpat</string>
+    <string name="angkadua">angkaDua</string>
+    <string name="angkatiga">angkaTiga</string>
+    <string name="angkalima">angkaLima</string>
+    <string name="angkaenam">angkaEnam</string>
+    <string name="langkah_selanjutnya">Langkah Selanjutnya</string>
+    <string name="permulaan">Permulaan</string>
+    <string name="dasar_dasar">Dasar-dasar</string>
+    <string name="variasi_not_1_16">Variasi Not 1/16</string>
+    <string name="fill_in">Fill-in</string>
+    <string name="not_1_16">Not 1/16</string>
+    <string name="variasi_not_1_16_2">Variasi Not 1/16 (2)</string>
+    <string name="lanjutan">Lanjutan</string>
+    <string name="lagu">Lagu</string>
+    <string name="latihan">Latihan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lagus">Lagu</string>
+    <string name="kembali">Kembali</string>
+    <string name="tulis_email_kamu">Tulis Email kamu</string>
+    <string name="tulis_password_kamu">Tulis Password kamu</string>
+    <string name="sign_in">Sign In</string>
+    <string name="belum_terdaftar_daftar_disini">Belum Terdaftar , Daftar Disini!</string>
+    <string name="logout">LOGOUT</string>
+    <string name="tentang">tentang</string>
+</resources>

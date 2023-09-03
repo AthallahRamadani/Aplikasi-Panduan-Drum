@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ListdrummerActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/travisbarker"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Biodata Travis Barker :"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ImageView" />
+
+        <TextView
+            android:id="@+id/pembuka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_sans_light"
+            android:text="Travis Landon Barker (lahir 14 November 1975) adalah pemain perkusi asal Amerika Serikat bagian California. Namanya terkenal setelah menjadi pemain drum untuk grup PunkRock Blink 182, dia pernah bermain untuk +44. Barker juga bermain untuk beberapa grup musik seperti Box Car Racer, The Transplants, Expensive Taste, The Suicide Machines, dan The Aquabats."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/judul" />
+
+        <ImageView
+            android:id="@+id/ImageView2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/trecool"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pembuka"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <TextView
+            android:id="@+id/judul2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Biodata Tre Cool :"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ImageView2" />
+
+        <TextView
+            android:id="@+id/pembuka2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_sans_light"
+            android:text="Frank Edwin Wright III alias Tré Cool, (lahir 9 Desember 1972) adalah seorang musisi dan drummer asal Amerika yang dikenal atas karyanya bersama band punk Amerika Green Day. Dia mulai menjadi drummer Green Day setelah menggantikan posisi John Kiffmeyer pada tahun 1990. Cool juga bermain untuk The Lookouts dan proyek sampingan Green Day, The Network dan Foxboro Hot Tubs."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/judul2" />
+
+        <ImageView
+            android:id="@+id/ImageView3"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/eno"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pembuka2"
+            tools:layout_editor_absoluteY="100dp" />
+
+        <TextView
+            android:id="@+id/judul3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="Biodata Eno :"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ImageView3" />
+
+        <TextView
+            android:id="@+id/pembuka3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_sans_light"
+            android:text="Eno Gitara Ryanto atau dikenal sebagai Eno Netral (lahir 11 Oktober 1979) merupakan seorang Drummer berkebangsaan Indonesia yang juga merupakan drummer grup musik Netral (Sekarang NTRL)."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/judul3" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnKembali"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/biru"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="@string/kembali"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pembuka3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

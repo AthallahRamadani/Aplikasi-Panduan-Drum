@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991180958811",
+    "project_id": "aplikasi-drum",
+    "storage_bucket": "aplikasi-drum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991180958811:android:f5fd6b192d2cbbc37a637e",
+        "android_client_info": {
+          "package_name": "com.example.aplikasidrum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991180958811-m37tngrntvhdb222m4ud7rntc3eom2ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQWoHS_iR-W6uyVhv7MwlYzgbO5T-yWwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991180958811-m37tngrntvhdb222m4ud7rntc3eom2ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

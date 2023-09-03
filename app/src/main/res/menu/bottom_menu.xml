@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ic_latihan"
+        android:icon="@drawable/ic_drum"
+        android:title="@string/latihan" />
+    <item
+        android:id="@+id/ic_lagu"
+        android:icon="@drawable/music_note"
+        android:title="@string/lagu" />
+    <item
+        android:id="@+id/ic_tentang"
+        android:icon="@drawable/ic_info"
+        android:title="@string/tentang"/>
+</menu>
